@@ -38,3 +38,11 @@ monitors:
     url: 'https://kpopfm.live/'
     method: GET
     expectStatus: 200
+    
+  - id: cites-openlearn-lk
+    name: OUSL LMS
+    description: 'Ikrams OUSL LMS'
+    url: 'https://cites.openlearn.lk'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
